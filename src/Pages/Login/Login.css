@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-page-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(/src/assets/Minecraft-Laptop-Wallpaper-1536x864.jpg);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-login {
+  width: 390px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 20px;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+
+.container-login h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.input-box-login input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+
+.container-login .input-box-login {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box-login i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-43%);
+  font-size: 20px;
+}
+
+.input-box-login input::placeholder {
+  color: white;
+}
+
+.container-login .login-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px;
+  margin: 20px 0 15px;
+}
+
+.container-login .btn {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+
+.login-link p a:hover {
+  text-decoration: underline;
+} 
+
+.login-link p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
