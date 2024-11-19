@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    position: relative; /* Necessário para o posicionamento absoluto do GIF */
+    position: relative;
   }
   
   .cart-container {
@@ -14,14 +14,14 @@
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 800px; /* Tamanho do carrinho ajustado */
-    margin: 0 10px; /* Centraliza e diminui a largura */
-    position: relative; /* Necessário para o GIF dentro do cart-container */
+    max-width: 800px;
+    margin: 0 10px;
+    position: relative;
   }
   
   .Kart-h1 {
     text-align: center;
-    font-size: 28px; /* Título maior */
+    font-size: 28px;
     margin-bottom: 20px;
     color: #333;
   }
@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 15px; /* Reduzir o padding para não ficar tão espaçado */
+    padding: 12px 15px;
     border-bottom: 1px solid #ddd;
   }
   
@@ -43,7 +43,7 @@
   }
   
   .cart-item img {
-    width: 120px; /* Reduzir imagem para não ficar muito grande */
+    width: 120px;
     height: 120px;
     object-fit: cover;
     border-radius: 8px;
@@ -55,13 +55,13 @@
   }
   
   .item-name {
-    font-size: 20px; /* Diminuir o tamanho do nome */
+    font-size: 20px;
     font-weight: bold;
     color: #333;
   }
   
   .item-price {
-    font-size: 16px; /* Ajustar o tamanho do preço */
+    font-size: 16px;
     color: #888;
     margin-top: 5px;
   }
@@ -74,7 +74,7 @@
   .quantity-btn {
     background-color: #f0f0f0;
     border: 1px solid #ddd;
-    padding: 8px 12px; /* Ajuste no botão */
+    padding: 8px 12px;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
@@ -98,11 +98,11 @@
     background-color: #f44336;
     color: white;
     border: none;
-    padding: 10px 15px; /* Ajuste no botão remover */
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 20px; /* Afastando o botão remover do sinal "+" */
+    margin-left: 20px;
   }
   
   .remove-btn:hover {
@@ -115,7 +115,7 @@
   }
   
   .cart-summary p {
-    font-size: 20px; /* Diminuir o texto do total */
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -124,7 +124,7 @@
     background-color: #4caf50;
     color: white;
     border: none;
-    padding: 12px 30px; /* Ajuste no botão finalizar */
+    padding: 12px 30px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -134,7 +134,6 @@
     background-color: #388e3c;
   }
   
-  /* Responsividade para telas pequenas */
   @media (max-width: 768px) {
     .cart-item {
       flex-direction: column;
@@ -142,7 +141,7 @@
     }
   
     .cart-item img {
-      width: 100px; /* Ajustar imagem em telas pequenas */
+      width: 100px;
       height: 100px;
     }
   
@@ -182,7 +181,7 @@
     .remove-btn {
       padding: 10px 12px;
       font-size: 14px;
-      margin-left: 10px; /* Menor margem em telas pequenas */
+      margin-left: 10px;
     }
   
     .checkout-btn {
@@ -191,12 +190,11 @@
     }
   }
   
-  /* Estilo para o GIF dentro do cart-container */
   .cart-gif {
     position: absolute;
     top: 10px;
     right: 8px;
-    width: 80px; /* Ajuste o tamanho do GIF */
+    width: 80px;
     height: auto;
   }
   
