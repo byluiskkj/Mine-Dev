@@ -1,0 +1,211 @@
+.container {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Necessário para o posicionamento absoluto do GIF */
+  }
+  
+  .cart-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; /* Tamanho do carrinho ajustado */
+    margin: 0 10px; /* Centraliza e diminui a largura */
+    position: relative; /* Necessário para o GIF dentro do cart-container */
+  }
+  
+  .Kart-h1 {
+    text-align: center;
+    font-size: 28px; /* Título maior */
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .cart {
+    margin-bottom: 30px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px; /* Reduzir o padding para não ficar tão espaçado */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item img {
+    width: 120px; /* Reduzir imagem para não ficar muito grande */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .item-details {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .item-name {
+    font-size: 20px; /* Diminuir o tamanho do nome */
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .item-price {
+    font-size: 16px; /* Ajustar o tamanho do preço */
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  .item-quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 8px 12px; /* Ajuste no botão */
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #ddd;
+  }
+  
+  .quantity-input {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .remove-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px; /* Ajuste no botão remover */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px; /* Afastando o botão remover do sinal "+" */
+  }
+  
+  .remove-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .cart-summary {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .cart-summary p {
+    font-size: 20px; /* Diminuir o texto do total */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 30px; /* Ajuste no botão finalizar */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Responsividade para telas pequenas */
+  @media (max-width: 768px) {
+    .cart-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .cart-item img {
+      width: 100px; /* Ajustar imagem em telas pequenas */
+      height: 100px;
+    }
+  
+    .cart-summary p {
+      font-size: 18px;
+    }
+  
+    .checkout-btn {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cart-container {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .item-name {
+      font-size: 18px;
+    }
+  
+    .item-price {
+      font-size: 14px;
+    }
+  
+    .quantity-input {
+      width: 35px;
+      height: 25px;
+      font-size: 14px;
+    }
+  
+    .remove-btn {
+      padding: 10px 12px;
+      font-size: 14px;
+      margin-left: 10px; /* Menor margem em telas pequenas */
+    }
+  
+    .checkout-btn {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilo para o GIF dentro do cart-container */
+  .cart-gif {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    width: 80px; /* Ajuste o tamanho do GIF */
+    height: auto;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}

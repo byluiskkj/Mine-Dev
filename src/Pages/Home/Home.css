@@ -65,43 +65,6 @@ nav ul li:hover {
   display: none;
 }
 
-@media (max-width: 768px) {
-  .navbar>div {
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  nav ul {
-      display: none;
-      width: 100%;
-      flex-direction: column;
-      margin-top: 10px;
-  }
-
-  .menu-button {
-      display: block;
-      background-color: #24252a;
-      color: white;
-      border: none;
-      padding: 10px;
-      cursor: pointer;
-      font-size: 18px;
-  }
-
-  .menu-button.active + ul {
-      display: flex;
-  }
-
-  nav ul li {
-      width: 100%;
-      text-align: left;
-      padding: 10px;
-  }
-
-  nav ul li a {
-      margin-left: 0;
-  }
-}
 
 .container {
   display: flex;
@@ -111,11 +74,12 @@ nav ul li:hover {
 }
 
 .card {
-  margin: 9px;
+  margin: 15px; /* Reduzindo a margem */
+  top: -12px;
   background-color: #1f1e1e20;
-  width: 350px;
+  width: 280px; /* Diminuindo a largura */
   height: auto;
-  max-height: 700px;
+  max-height: 600px; /* Diminuindo o tamanho máximo da altura */
   margin-top: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -127,21 +91,21 @@ nav ul li:hover {
 }
 
 .card > h1 {
-  font-size: 24px;
+  font-size: 20px; /* Tamanho da fonte do título reduzido */
   padding-top: 10px;
 }
 
 .card > p {
-  font-size: 18px;
+  font-size: 16px; /* Tamanho da fonte da descrição reduzido */
   padding-top: 5px;
   text-align: center;
 }
 
 .btn-1, .btn-2, .btn-3 {
-  font-size: 17.5px;
-  padding: 10px 20px;
+  font-size: 16px; /* Font-size do botão reduzido */
+  padding: 8px 18px; /* Reduzindo o padding */
   width: 80%;
-  max-width: 200px;
+  max-width: 180px; /* Diminuindo o tamanho máximo do botão */
   border: none;
   background-color: #202020;
   color: white;
@@ -149,11 +113,7 @@ nav ul li:hover {
   font-weight: 600;
   transition: 0.5s background;
   cursor: pointer;
-  margin: 10px auto;
-}
-
-.btn-1:hover, .btn-2:hover, .btn-3:hover {
-  background-color: #333333;
+  margin: 8px auto; /* Ajustando margem dos botões */
 }
 
 .card > img {
@@ -193,7 +153,7 @@ nav ul li:hover {
 footer {
   background-color: #24252a;
   color: white;
-  padding: 15px 10px;
+  padding: 5px 10px;
   text-align: center;
   font-size: 13px;
 }
