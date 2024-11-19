@@ -69,7 +69,7 @@ nav ul li:hover {
 .container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 20px;
 }
 
@@ -78,8 +78,8 @@ nav ul li:hover {
   top: -12px;
   background-color: #1f1e1e20;
   width: 280px; /* Diminuindo a largura */
-  height: auto;
-  max-height: 600px; /* Diminuindo o tamanho máximo da altura */
+  
+   /* Diminuindo o tamanho máximo da altura */
   margin-top: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,

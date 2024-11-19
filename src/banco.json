@@ -31,5 +31,60 @@
       "quantity": 1
     }
   ],
-  "pedidos": []
+  "pedidos": [
+    {
+      "0": {
+        "clienteName": "charque",
+        "paymentMethod": "Crédito",
+        "products": [
+          {
+            "id": "1060",
+            "imgUrl": "https://imgs.search.brave.com/F9vD3d8ou7RHd5P-IcoIO5zgqudTxnAaBF1fWEHZ_Xg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvYmVzdC1taW5l/Y3JhZnQtcGljdHVy/ZXMtbXAzMTJ1YTFo/dTRteGw5OC5qcGc",
+            "name": "Minecraft Full Acesso",
+            "descricao": "NOVIDADE: 90% de chance de ter a Capa Creeper (Aniversário 15 anos), Capa Twitch (Purple Heart) & Capa Tiktok (Follower’s) (Capas do Aniversário de 15 anos) Minecraft Java Edition e Bedrock Edition(Altera E-mail, Senha, Nick e Skin) Ativação diretamente em seu emailAcesso permanente e completo à todas as funções (Alteração de dados e a todos os servidores originais)  Acesso oficial e privado a versão Java & Bedrock EXCLUSIVO: 50% de chancede ter a Migrator Cape, Vanilla Cape, Cherry Blossom Cape e/ou MCC15th Year Cape (Capas oficiais)Chance de ter Rank no Hypixel (VIP, VIP+, MVP, MVP+)Chance de ter Cosméticos no Lunar ou Badlion",
+            "price": 70,
+            "quantity": 1
+          }
+        ],
+        "total": 70
+      },
+      "id": "4ff5"
+    },
+    {
+      "0": {
+        "clienteName": "charque",
+        "paymentMethod": "Pix",
+        "products": [
+          {
+            "id": "1060",
+            "imgUrl": "https://imgs.search.brave.com/F9vD3d8ou7RHd5P-IcoIO5zgqudTxnAaBF1fWEHZ_Xg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvYmVzdC1taW5l/Y3JhZnQtcGljdHVy/ZXMtbXAzMTJ1YTFo/dTRteGw5OC5qcGc",
+            "name": "Minecraft Full Acesso",
+            "descricao": "NOVIDADE: 90% de chance de ter a Capa Creeper (Aniversário 15 anos), Capa Twitch (Purple Heart) & Capa Tiktok (Follower’s) (Capas do Aniversário de 15 anos) Minecraft Java Edition e Bedrock Edition(Altera E-mail, Senha, Nick e Skin) Ativação diretamente em seu emailAcesso permanente e completo à todas as funções (Alteração de dados e a todos os servidores originais)  Acesso oficial e privado a versão Java & Bedrock EXCLUSIVO: 50% de chancede ter a Migrator Cape, Vanilla Cape, Cherry Blossom Cape e/ou MCC15th Year Cape (Capas oficiais)Chance de ter Rank no Hypixel (VIP, VIP+, MVP, MVP+)Chance de ter Cosméticos no Lunar ou Badlion",
+            "price": 70,
+            "quantity": 2
+          }
+        ],
+        "total": 140
+      },
+      "id": "6291"
+    },
+    {
+      "0": {
+        "clienteName": "charque",
+        "paymentMethod": "Crédito",
+        "products": [
+          {
+            "id": "1060",
+            "imgUrl": "https://imgs.search.brave.com/F9vD3d8ou7RHd5P-IcoIO5zgqudTxnAaBF1fWEHZ_Xg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvYmVzdC1taW5l/Y3JhZnQtcGljdHVy/ZXMtbXAzMTJ1YTFo/dTRteGw5OC5qcGc",
+            "name": "Minecraft Full Acesso",
+            "descricao": "NOVIDADE: 90% de chance de ter a Capa Creeper (Aniversário 15 anos), Capa Twitch (Purple Heart) & Capa Tiktok (Follower’s) (Capas do Aniversário de 15 anos) Minecraft Java Edition e Bedrock Edition(Altera E-mail, Senha, Nick e Skin) Ativação diretamente em seu emailAcesso permanente e completo à todas as funções (Alteração de dados e a todos os servidores originais)  Acesso oficial e privado a versão Java & Bedrock EXCLUSIVO: 50% de chancede ter a Migrator Cape, Vanilla Cape, Cherry Blossom Cape e/ou MCC15th Year Cape (Capas oficiais)Chance de ter Rank no Hypixel (VIP, VIP+, MVP, MVP+)Chance de ter Cosméticos no Lunar ou Badlion",
+            "price": 70,
+            "quantity": 4
+          }
+        ],
+        "total": 280
+      },
+      "id": "5df0"
+    }
+  ]
 }
