@@ -2,14 +2,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Login from './Pages/Login/Login'
 import Registro from './Pages/Register/Registro'
 import Home from  './Pages/Home/Home'
-import Kart from './Pages/Kart/Kart'
+import Cart from './Pages/Cart/Cart'
 function App() {
 
   return (
     <BrowserRouter>
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path='/Kart' element={<Kart/>} />
+    <Route path='/Cart' element={<Cart/>} />
     <Route path="/Registro" element={<Registro />} /> 
     <Route path="/Login" element={<Login />} />
     <Route path="*" element={<h1 className="error-h1">Nada aqui boy, volte vai</h1>} /> 

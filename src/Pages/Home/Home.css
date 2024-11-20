@@ -12,7 +12,7 @@
   margin-right: auto;
 }
 
-.navbar>div {
+.navbar > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,47 +65,46 @@ nav ul li:hover {
   display: none;
 }
 
-
 .container {
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 20px;
 }
 
 .card {
-  margin: 15px; /* Reduzindo a margem */
+  margin: 15px;
   top: -12px;
   background-color: #1f1e1e20;
-  width: 280px; /* Diminuindo a largura */
-  
-   /* Diminuindo o tamanho máximo da altura */
+  width: 280px;
   margin-top: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
 .card > h1 {
-  font-size: 20px; /* Tamanho da fonte do título reduzido */
+  font-size: 20px;
   padding-top: 10px;
 }
 
 .card > p {
-  font-size: 16px; /* Tamanho da fonte da descrição reduzido */
+  font-size: 16px;
   padding-top: 5px;
   text-align: center;
 }
 
-.btn-1, .btn-2, .btn-3 {
-  font-size: 16px; /* Font-size do botão reduzido */
-  padding: 8px 18px; /* Reduzindo o padding */
+.btn-1,
+.btn-2,
+.btn-3 {
+  font-size: 16px;
+  padding: 8px 18px;
   width: 80%;
-  max-width: 180px; /* Diminuindo o tamanho máximo do botão */
+  max-width: 180px;
   border: none;
   background-color: #202020;
   color: white;
@@ -113,41 +112,13 @@ nav ul li:hover {
   font-weight: 600;
   transition: 0.5s background;
   cursor: pointer;
-  margin: 8px auto; /* Ajustando margem dos botões */
+  margin: 8px auto;
 }
 
 .card > img {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-}
-
-@media (max-width: 600px) {
-  .container {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .card {
-      width: 100%;
-      height: auto;
-      margin-top: 30px;
-  }
-
-  .card > h1 {
-      font-size: 20px;
-  }
-
-  .card > p {
-      font-size: 14px;
-  }
-
-  .btn-1, .btn-2, .btn-3 {
-      font-size: 15px;
-      padding: 8px 20px;
-      width: 90%;
-      max-width: 180px;
-  }
 }
 
 footer {
@@ -219,19 +190,4 @@ footer .footer-bottom {
   margin-top: 20px;
   font-size: 12px;
   color: #aaa;
-}
-
-@media (max-width: 768px) {
-  footer .footer-container {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  footer .footer-section {
-      text-align: center;
-  }
-
-  footer .social-icons {
-      margin-top: 20px;
-  }
 }
