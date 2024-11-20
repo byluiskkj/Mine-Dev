@@ -82,77 +82,90 @@ function Cart() {
 
     return (
         <div className="container">
-            <div className="cart-container">
-                <h1 className="Cart-h1">Carrinho de Compras</h1>
-                {carrinho.length > 0 ? (
-                    <div>
-                        <div className="cart">
-                            {carrinho.map((item) => (
-                                <div key={item.id} className="cart-item">
-                                    <img src={item.imgUrl} alt={item.name} />
-                                    <div className="item-details">
-                                        <p className="item-name">{item.name}</p>
-                                        <p className="item-price">R$ {item.price.toFixed(2)}</p>
-                                    </div>
-                                    <div className="item-quantity">
-                                        <button
-                                            type="button"
-                                            className="quantity-btn"
-                                            onClick={() => diminuirQuantidade(item.id)}
-                                        >
-                                            -
-                                        </button>
-                                        <input
-                                            type="number"
-                                            className="quantity-input"
-                                            value={item.quantity}
-                                            readOnly
-                                        />
-                                        <button
-                                            type="button"
-                                            className="quantity-btn"
-                                            onClick={() => aumentarQuantidade(item.id)}
-                                        >
-                                            +
-                                        </button>
-                                    </div>
-                                    <button
-                                        type="button"
-                                        className="remove-btn"
-                                        onClick={() => diminuirQuantidade(item.id)}
-                                    >
-                                        Remover
-                                    </button>
-                                </div>
-                            ))}
-                        </div>
-
-                        <div className="cart-summary">
-                            <p>
-                                <strong>Total:</strong> R$ {calcularTotal().toFixed(2)}
-                            </p>
-                            <button
-                                type="button"
-                                className="checkout-btn"
-                                onClick={confirmarCompra}
-                            >
-                                Finalizar Compra com Pix
-                            </button>
-                        </div>
-
-                        <img
-                            className="cart-gif"
-                            src="https://i.pinimg.com/originals/8b/59/50/8b59507616ba892351951ad2bee28dd1.gif"
-                            alt="Carrinho animado"
-                        />
-                    </div>
-                ) : (
-                    <div>
-                        <h1>Carrinho vazio</h1>
-                    </div>
-                )}
+      <div className="cart-container">
+        <h1 className="Cart-h1">Carrinho de Compras</h1>
+        {carrinho.length > 0 ? (
+          <div>
+            <div className="cart">
+              {carrinho.map((item) => (
+                <div key={item.id} className="cart-item">
+                  <img src={item.imgUrl} alt={item.name} />
+                  <div className="item-details">
+                    <p className="item-name">{item.name}</p>
+                    <p className="item-price">R$ {item.price.toFixed(2)}</p>
+                  </div>
+                  <div className="item-quantity">
+                    <button
+                      type="button"
+                      className="quantity-btn"
+                      onClick={() => diminuirQuantidade(item.id)}
+                    >
+                      -
+                    </button>
+                    <input
+                      type="number"
+                      className="quantity-input"
+                      value={item.quantity}
+                      readOnly
+                    />
+                    <button
+                      type="button"
+                      className="quantity-btn"
+                      onClick={() => aumentarQuantidade(item.id)}
+                    >
+                      +
+                    </button>
+                  </div>
+                  <button
+                    type="button"
+                    className="remove-btn"
+                    onClick={() => diminuirQuantidade(item.id)}
+                  >
+                    Remover
+                  </button>
+                </div>
+              ))}
             </div>
-        </div>
+
+            <div className="cart-summary">
+              <p>
+                <strong>Total:</strong> R$ {calcularTotal().toFixed(2)}
+              </p>
+              <button
+                type="button"
+                className="checkout-btn"
+                onClick={confirmarCompra}
+              >
+                Finalizar Compra com Pix
+              </button>
+            </div>
+
+            <img
+              className="cart-gif"
+              src="https://i.pinimg.com/originals/8b/59/50/8b59507616ba892351951ad2bee28dd1.gif"
+              alt="Carrinho animado"
+            />
+
+            <button
+              className="back-home-btn"
+              onClick={() => navigate("/")}
+            >
+              Voltar para a Home
+            </button>
+          </div>
+        ) : (
+          <div>
+            <h1>Carrinho vazio</h1>
+            <button
+              className="back-home-btn"
+              onClick={() => navigate("/")}
+            >
+              Voltar para a Home
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
     );
 }
 

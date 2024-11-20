@@ -58,7 +58,7 @@ const Home = () => {
       </nav>
       <div class="nav-img-container">
         <a href="/Cart">
-          <img src="/src/assets/cart.png" alt="IMAGEM DO CART!" />
+          <img className="img-navbar" src="/src/assets/cart.png" alt="IMAGEM DO CART!" />
         </a>
       </div>
       <div class="menu-button" id="menu-btn">
@@ -88,7 +88,7 @@ const Home = () => {
         <ul>
           <li><a target="_blank" href="https://www.youtube.com/watch?v=fkbcvv7P_qg">Sobre Nós</a></li>
           <li><a href="/">Serviços</a></li>
-          <li><a href="/">Contato</a></li>
+          <li><a target="_blank" href="mailto:davi.alencar.luis@gmail.com">Contato</a></li>
         </ul>
       </div>
 
