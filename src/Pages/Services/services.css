@@ -1,0 +1,68 @@
+.services {
+    background-color: #f1f8e9;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.services .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.services .intro {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 calc(30% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #388e3c;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.services .cta {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.services .cta a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.services .cta a:hover {
+    text-decoration: underline;
+}

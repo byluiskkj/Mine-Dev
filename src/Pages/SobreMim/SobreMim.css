@@ -1,0 +1,43 @@
+.body-sobre {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+
+.header-sobre {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(90deg, #4caf50, #2e7d32);
+    color: white;
+}
+
+.header-sobre .title-sobre {
+    font-size: 2.5rem;
+}
+
+.about-sobre {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-sobre .container-sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4caf50;
+}
+
+.about-sobre p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}

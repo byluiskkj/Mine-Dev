@@ -1,0 +1,30 @@
+.about-site {
+    background-color: #e3f2fd;
+    padding: 40px 20px;
+    margin: 110px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-site .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-site h2 {
+    font-size: 2rem;
+    color: #1565c0;
+    margin-bottom: 20px;
+}
+
+.about-site p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.about-site p:last-child {
+    margin-bottom: 0;
+}

@@ -51,9 +51,9 @@ const Home = () => {
       </h1>
       <nav>
         <ul>
-          <li><a target="_blank" href="https://www.youtube.com/shorts/5BGVzCBp3ic">Sobre nosso site!</a></li>
+          <li><a target="_blank" href="/sobresite">Sobre nosso site!</a></li>
           <li><a target="_blank" href="mailto:davi.alencar.luis@gmail.com">Contato!</a></li>
-          <li><a target="_blank" href="https://www.youtube.com/shorts/curNoI4Fz9Y">Somos confiáveis!?</a></li>
+          <li><a target="_blank" href="/trust">Somos confiáveis!?</a></li>
         </ul>
       </nav>
       <div class="nav-img-container">
@@ -86,8 +86,8 @@ const Home = () => {
       <div class="footer-section">
         <h3>Links Importantes</h3>
         <ul>
-          <li><a target="_blank" href="https://www.youtube.com/watch?v=fkbcvv7P_qg">Sobre Nós</a></li>
-          <li><a href="/">Serviços</a></li>
+          <li><a target="_blank" href="/sobreMim">Sobre Mim</a></li>
+          <li><a target="_blank" href="/services">Serviços</a></li>
           <li><a target="_blank" href="mailto:davi.alencar.luis@gmail.com">Contato</a></li>
         </ul>
       </div>
