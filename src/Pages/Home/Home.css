@@ -70,6 +70,7 @@ nav ul li:hover {
   justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
+  height: 80vh;
 }
 
 .card {
@@ -96,6 +97,10 @@ nav ul li:hover {
   font-size: 16px;
   padding-top: 5px;
   text-align: center;
+  display: -webkit-box; /* Necessário para clamping */
+  -webkit-line-clamp: 8; /* Número máximo de linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden; /* Esconde o texto extra */
 }
 
 .btn-1,

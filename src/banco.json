@@ -653,6 +653,24 @@
         "total": 160
       },
       "id": "68d2"
+    },
+    {
+      "0": {
+        "clienteName": "charque",
+        "paymentMethod": "Pix",
+        "products": [
+          {
+            "id": "1080",
+            "imgUrl": "https://cdn.dfg.com.br/itemimages/960725669-capa-optifine-customizavel-NKPA.webp",
+            "name": "Capa da OptiFine",
+            "descricao": "Acesso ao painel oficial da OptiFine Altere-a para nickname que quiser Personalize-a quando e como quiser Vários estilos de capas disponíveis para uso Visível para todos com OptiFine Funcional em todas as versões Compatível com servidores multiplayers",
+            "price": 40,
+            "quantity": 18
+          }
+        ],
+        "total": 720
+      },
+      "id": "1259"
     }
   ]
 }
