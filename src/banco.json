@@ -41,6 +41,12 @@
       "name": "Luis Davi",
       "email": "luisdavi@gmail.com",
       "senha": "123456"
+    },
+    {
+      "id": "bab9",
+      "name": "João",
+      "email": "joao@gmail.com",
+      "senha": "123"
     }
   ],
   "produtos": [
@@ -773,6 +779,24 @@
         "total": 70
       },
       "id": "0198"
+    },
+    {
+      "0": {
+        "clienteName": "Luis",
+        "paymentMethod": "Pix",
+        "products": [
+          {
+            "id": "1060",
+            "imgUrl": "https://minecraftshop.com.br/assets/img/site_image.jpg",
+            "name": "Minecraft Full Acesso",
+            "descricao": "NOVIDADE: 90% de chance de ter a Capa Creeper (Aniversário 15 anos), Capa Twitch (Purple Heart) & Capa Tiktok (Follower’s) (Capas do Aniversário de 15 anos) Minecraft Java Edition e Bedrock Edition (Altera E-mail, Senha, Nick e Skin) Ativação diretamente em seu email Acesso permanente e completo à todas as funções (Alteração de dados e a todos os servidores originais)  Acesso oficial e privado a versão Java & Bedrock EXCLUSIVO: 50% de chancede ter a Migrator Cape, Vanilla Cape, Cherry Blossom Cape e/ou MCC15th Year Cape (Capas oficiais)Chance de ter Rank no Hypixel (VIP, VIP+, MVP, MVP+)Chance de ter Cosméticos no Lunar ou Badlion",
+            "price": 70,
+            "quantity": 1
+          }
+        ],
+        "total": 70
+      },
+      "id": "e322"
     }
   ]
 }

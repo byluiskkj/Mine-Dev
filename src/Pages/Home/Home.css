@@ -97,7 +97,7 @@ nav ul li:hover {
   padding-top: 5px;
   text-align: center;
   display: -webkit-box;
-  -webkit-line-clamp: 8;
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -194,6 +194,11 @@ footer .footer-bottom {
   margin-top: 20px;
   font-size: 12px;
   color: #aaa;
+}
+
+.error-h1 {
+  text-align: center;
+  margin-top: 295px;
 }
 
 @media (max-width: 768px) {
