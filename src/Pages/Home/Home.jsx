@@ -88,7 +88,7 @@ const Home = () => {
         <ul>
           <li><a href="/sobreMim">Sobre Mim</a></li>
           <li><a href="/services">Serviços</a></li>
-          <li><a target="_blank" href="mailto:davi.alencar.luis@gmail.com">Contato</a></li>
+          <li><a href="mailto:davi.alencar.luis@gmail.com">Contato</a></li>
         </ul>
       </div>
 
