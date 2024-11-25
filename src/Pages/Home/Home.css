@@ -44,8 +44,8 @@ nav ul {
   color: white;
   border: none;
   font-size: 1rem;
-  padding: 8px 15px;
-  margin-left: 10px;
+  padding: 8px 12px;
+  margin-left: -2px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s ease;
@@ -58,7 +58,7 @@ nav ul {
 .btn-cart {
   background-color: transparent;
   border: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   cursor: pointer;
   color: #333;
   padding: 5px;
