@@ -100,7 +100,6 @@ function Cart() {
                       className="quantity-btn"
                       onClick={() => diminuirQuantidade(item.id)}
                     >
-                      -
                     </button>
                     <input
                       type="number"

@@ -39,14 +39,37 @@ nav ul {
   align-items: center;
 }
 
-.nav-img-container img {
-  width: 50px;
+.btn-login {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 8px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.nav-img-container img:first-child {
-  margin-right: 1rem;
+.btn-login:hover {
+  background-color: #78582c;
 }
+
+.btn-cart {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+  padding: 5px;
+}
+
+.btn-cart:hover {
+  color: #007bff;
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
 
 nav ul li a {
   color: white;
